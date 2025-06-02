@@ -1,0 +1,21 @@
+/* src\pages\BemVindo\styles.css */
+
+.pagina-inicial {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    background: linear-gradient(135deg, #0033A0, #ED1C24); /* azul e vermelho do Bahia */
+    text-align: center;
+}
+
+/* Responsivo */
+@media (max-width: 600px) {
+    .pagina-inicial {
+        padding: 10px;
+    }
+}

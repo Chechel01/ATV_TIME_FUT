@@ -1,0 +1,55 @@
+/* src\components\PaginaInicial\styles.css */
+
+.pagina-inicial-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #0033A0, #ED1C24); /* azul e vermelho do Bahia */
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+.content-wrapper {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1); /* branco translúcido */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 2.5em;
+    margin: 10px 0;
+    color: #FFFFFF; /* branco para contraste */
+    text-shadow: 1px 1px 2px #000; /* leve sombra para leitura */
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background 0.3s;
+    color: white;
+}
+
+.btn.primary {
+    background: #0033A0; /* azul Bahia */
+}
+
+.btn.primary:hover {
+    background: #002070; /* tom mais escuro no hover */
+}
