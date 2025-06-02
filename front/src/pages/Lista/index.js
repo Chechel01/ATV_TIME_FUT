@@ -7,12 +7,15 @@ import './styles.css'
 function PaginaListaUsuarios() {
     const navigate = useNavigate()
 
-    return (
+return (
         <div className='pagina-lista-usuarios'>
             <div className='container'>
                 <h2>Lista de usuários</h2>
                 <ListaDeUsuarios />
-                <button onClick={() => navigate('/')} className='link-voltar'>
+                <button onClick={() => navigate('/')} className='link-inicio'>
+                    Página inicial
+                </button>
+                <button onClick={() => navigate('/cadastro')} className='link-voltar'>
                     Cadastrar usuários
                 </button>
             </div>

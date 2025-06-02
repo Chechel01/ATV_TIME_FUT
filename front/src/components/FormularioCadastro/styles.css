@@ -90,11 +90,24 @@ button:focus {
     font-size: 14px;
 }
 
+.link-inicio {
+    margin-top: 25px;
+    text-decoration: none;
+    color: #004080; /* Azul Bahia */
+    font-size: 14px;
+}
+
 /* Efeito hover no link */
 .link-usuarios:hover {
     text-decoration: underline;
     color: #E30613; /* Vermelho Bahia */
 }
+
+.link-inicio:hover {
+    text-decoration: underline;
+    color: #E30613; /* Vermelho Bahia */
+}
+
 
 /* Estilo para telas pequenas */
 @media (max-width: 480px) {

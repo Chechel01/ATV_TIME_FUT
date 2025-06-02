@@ -143,6 +143,10 @@ function FormularioCadastro() {
                 Ver usuários cadastrados
             </button>
 
+            <button onClick={() => navigate('/')} className="link-inicio">
+                Pagina inicial
+            </button>
+
             <MensagemFeedback
                 mensagem={mensagem}
                 tipo={tipoMensagem}
